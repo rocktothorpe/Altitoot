@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB88222C2C5D653F0029D252 /* AltitootApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88222B2C5D653F0029D252 /* AltitootApp.swift */; };
+		DB88222E2C5D653F0029D252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88222D2C5D653F0029D252 /* ContentView.swift */; };
+		DB8822302C5D65400029D252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB88222F2C5D65400029D252 /* Assets.xcassets */; };
+		DB8822332C5D65400029D252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8822322C5D65400029D252 /* Preview Assets.xcassets */; };
+		DB88223B2C5D84650029D252 /* danger.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DB88223A2C5D84650029D252 /* danger.m4a */; };
+		DB88223D2C5ED1030029D252 /* alarm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DB88223C2C5ED1030029D252 /* alarm.m4a */; };
+		DB8822452C5EE52E0029D252 /* Altitoot_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8822442C5EE52E0029D252 /* Altitoot_watchOSApp.swift */; };
+		DB8822472C5EE52E0029D252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8822462C5EE52E0029D252 /* ContentView.swift */; };
+		DB8822492C5EE5300029D252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8822482C5EE5300029D252 /* Assets.xcassets */; };
+		DB88224C2C5EE5300029D252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB88224B2C5EE5300029D252 /* Preview Assets.xcassets */; };
+		DB88224F2C5EE5300029D252 /* Altitoot-watchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DB8822422C5EE52E0029D252 /* Altitoot-watchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB88224D2C5EE5300029D252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB8822202C5D653F0029D252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8822412C5EE52E0029D252;
+			remoteInfo = "Altitoot-watchOS Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB8822532C5EE5300029D252 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DB88224F2C5EE5300029D252 /* Altitoot-watchOS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB8822282C5D653F0029D252 /* Altitoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Altitoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB88222B2C5D653F0029D252 /* AltitootApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitootApp.swift; sourceTree = "<group>"; };
+		DB88222D2C5D653F0029D252 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB88222F2C5D65400029D252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB8822322C5D65400029D252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB8822392C5D6D660029D252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DB88223A2C5D84650029D252 /* danger.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = danger.m4a; sourceTree = "<group>"; };
+		DB88223C2C5ED1030029D252 /* alarm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = alarm.m4a; sourceTree = "<group>"; };
+		DB8822422C5EE52E0029D252 /* Altitoot-watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Altitoot-watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8822442C5EE52E0029D252 /* Altitoot_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altitoot_watchOSApp.swift; sourceTree = "<group>"; };
+		DB8822462C5EE52E0029D252 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB8822482C5EE5300029D252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB88224B2C5EE5300029D252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB8822252C5D653F0029D252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB88223F2C5EE52E0029D252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB88221F2C5D653E0029D252 = {
+			isa = PBXGroup;
+			children = (
+				DB88222A2C5D653F0029D252 /* Altitoot */,
+				DB8822432C5EE52E0029D252 /* Altitoot-watchOS Watch App */,
+				DB8822292C5D653F0029D252 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB8822292C5D653F0029D252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB8822282C5D653F0029D252 /* Altitoot.app */,
+				DB8822422C5EE52E0029D252 /* Altitoot-watchOS Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB88222A2C5D653F0029D252 /* Altitoot */ = {
+			isa = PBXGroup;
+			children = (
+				DB8822392C5D6D660029D252 /* Info.plist */,
+				DB88222B2C5D653F0029D252 /* AltitootApp.swift */,
+				DB88223A2C5D84650029D252 /* danger.m4a */,
+				DB88223C2C5ED1030029D252 /* alarm.m4a */,
+				DB88222D2C5D653F0029D252 /* ContentView.swift */,
+				DB88222F2C5D65400029D252 /* Assets.xcassets */,
+				DB8822312C5D65400029D252 /* Preview Content */,
+			);
+			path = Altitoot;
+			sourceTree = "<group>";
+		};
+		DB8822312C5D65400029D252 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB8822322C5D65400029D252 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB8822432C5EE52E0029D252 /* Altitoot-watchOS Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DB8822442C5EE52E0029D252 /* Altitoot_watchOSApp.swift */,
+				DB8822462C5EE52E0029D252 /* ContentView.swift */,
+				DB8822482C5EE5300029D252 /* Assets.xcassets */,
+				DB88224A2C5EE5300029D252 /* Preview Content */,
+			);
+			path = "Altitoot-watchOS Watch App";
+			sourceTree = "<group>";
+		};
+		DB88224A2C5EE5300029D252 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB88224B2C5EE5300029D252 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB8822272C5D653F0029D252 /* Altitoot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8822362C5D65400029D252 /* Build configuration list for PBXNativeTarget "Altitoot" */;
+			buildPhases = (
+				DB8822242C5D653F0029D252 /* Sources */,
+				DB8822252C5D653F0029D252 /* Frameworks */,
+				DB8822262C5D653F0029D252 /* Resources */,
+				DB8822532C5EE5300029D252 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB88224E2C5EE5300029D252 /* PBXTargetDependency */,
+			);
+			name = Altitoot;
+			productName = Altitoot;
+			productReference = DB8822282C5D653F0029D252 /* Altitoot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB8822412C5EE52E0029D252 /* Altitoot-watchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8822502C5EE5300029D252 /* Build configuration list for PBXNativeTarget "Altitoot-watchOS Watch App" */;
+			buildPhases = (
+				DB88223E2C5EE52E0029D252 /* Sources */,
+				DB88223F2C5EE52E0029D252 /* Frameworks */,
+				DB8822402C5EE52E0029D252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Altitoot-watchOS Watch App";
+			productName = "Altitoot-watchOS Watch App";
+			productReference = DB8822422C5EE52E0029D252 /* Altitoot-watchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB8822202C5D653F0029D252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DB8822272C5D653F0029D252 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DB8822412C5EE52E0029D252 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = DB8822232C5D653F0029D252 /* Build configuration list for PBXProject "Altitoot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB88221F2C5D653E0029D252;
+			productRefGroup = DB8822292C5D653F0029D252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB8822272C5D653F0029D252 /* Altitoot */,
+				DB8822412C5EE52E0029D252 /* Altitoot-watchOS Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB8822262C5D653F0029D252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB88223B2C5D84650029D252 /* danger.m4a in Resources */,
+				DB8822332C5D65400029D252 /* Preview Assets.xcassets in Resources */,
+				DB88223D2C5ED1030029D252 /* alarm.m4a in Resources */,
+				DB8822302C5D65400029D252 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8822402C5EE52E0029D252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB88224C2C5EE5300029D252 /* Preview Assets.xcassets in Resources */,
+				DB8822492C5EE5300029D252 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB8822242C5D653F0029D252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB88222E2C5D653F0029D252 /* ContentView.swift in Sources */,
+				DB88222C2C5D653F0029D252 /* AltitootApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB88223E2C5EE52E0029D252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8822472C5EE52E0029D252 /* ContentView.swift in Sources */,
+				DB8822452C5EE52E0029D252 /* Altitoot_watchOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB88224E2C5EE5300029D252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB8822412C5EE52E0029D252 /* Altitoot-watchOS Watch App */;
+			targetProxy = DB88224D2C5EE5300029D252 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB8822342C5D65400029D252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB8822352C5D65400029D252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB8822372C5D65400029D252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Altitoot/Preview Content\"";
+				DEVELOPMENT_TEAM = 8274536BZ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Altitoot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Tim Apple needs your location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Tim Apple needs to track you at all times";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Tim Apple needs your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocktothorpeApps.Altitoot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DB8822382C5D65400029D252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Altitoot/Preview Content\"";
+				DEVELOPMENT_TEAM = 8274536BZ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Altitoot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Tim Apple needs your location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Tim Apple needs to track you at all times";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Tim Apple needs your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocktothorpeApps.Altitoot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DB8822512C5EE5300029D252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Altitoot-watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8274536BZ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Altitoot-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = rocktothorpeApps.Altitoot;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocktothorpeApps.Altitoot.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		DB8822522C5EE5300029D252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Altitoot-watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8274536BZ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Altitoot-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = rocktothorpeApps.Altitoot;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rocktothorpeApps.Altitoot.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB8822232C5D653F0029D252 /* Build configuration list for PBXProject "Altitoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8822342C5D65400029D252 /* Debug */,
+				DB8822352C5D65400029D252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8822362C5D65400029D252 /* Build configuration list for PBXNativeTarget "Altitoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8822372C5D65400029D252 /* Debug */,
+				DB8822382C5D65400029D252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8822502C5EE5300029D252 /* Build configuration list for PBXNativeTarget "Altitoot-watchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8822512C5EE5300029D252 /* Debug */,
+				DB8822522C5EE5300029D252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB8822202C5D653F0029D252 /* Project object */;
+}
